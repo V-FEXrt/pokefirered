@@ -4201,6 +4201,18 @@ const struct Trainer gTrainers[] = {
         .partySize = NELEMS(sTrainerMons_823BAE8),
         .party = {.NoItemDefaultMoves = sTrainerMons_823BAE8}
     },
+    [TRAINER_TIM] = {
+        .partyFlags = 0,
+        .trainerClass = CLASS_TEAM_ROCKET,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
+        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        .trainerName = _("GRUNT"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .partySize = NELEMS(sTrainerMons_823BB58),
+        .party = {.NoItemDefaultMoves = sTrainerMons_823BB58}
+    },
     [TRAINER_LEADER_GIOVANNI] = {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = CLASS_LEADER_2,
