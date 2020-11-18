@@ -11555,3 +11555,48 @@ static const struct TrainerMonNoItemDefaultMoves sTrainerMons_CueBallPaxton[] = 
         .species = SPECIES_MUK,
     },
 };
+
+static const struct TrainerMonItemCustomMoves sTrainerMons_LeaderBrock2[] = {
+    {
+        .iv = 0,
+        .lvl = 20,
+        .species = SPECIES_AERODACTYL,
+        .heldItem = ITEM_LUM_BERRY,
+        .moves = {MOVE_SPIKES, MOVE_ROCK_SLIDE, MOVE_WING_ATTACK, MOVE_ROAR},
+    },
+    {
+        .iv = 0,
+        .lvl = 20,
+        .species = SPECIES_LILEEP,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_MEGA_DRAIN, MOVE_ANCIENT_POWER, MOVE_INGRAIN, MOVE_HIDDEN_POWER},
+    },
+    {
+        .iv = 0,
+        .lvl = 20,
+        .species = SPECIES_LARVITAR,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_ROCK_SLIDE, MOVE_PURSUIT, MOVE_MUD_SLAP, MOVE_TORMENT},
+    },
+    {
+        .iv = 0,
+        .lvl = 20,
+        .species = SPECIES_SHUCKLE,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_ROCK_THROW, MOVE_ENCORE, MOVE_SPIKES, MOVE_NONE},
+    },
+    {
+        .iv = 0,
+        .lvl = 20,
+        .species = SPECIES_KABUTO,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_ABSORB, MOVE_AQUA_JET, MOVE_ANCIENT_POWER, MOVE_AURORA_BEAM},
+    },
+    {
+        .iv = 0,
+        .lvl = 20,
+        .species = SPECIES_ZUBAT,
+        .heldItem = ITEM_QUICK_CLAW,
+        .moves = {MOVE_WING_ATTACK, MOVE_POISON_FANG, MOVE_BITE, MOVE_MEAN_LOOK},
+    },
+};

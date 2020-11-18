@@ -913,7 +913,8 @@
 #define TRAINER_CHAMPION_REMATCH_BULBASAUR       740
 #define TRAINER_CHAMPION_REMATCH_CHARMANDER      741
 #define TRAINER_CUE_BALL_PAXTON                  742
-#define NUM_TRAINERS                             743
+#define TRAINER_LEADER_BROCK_2                   743
+#define NUM_TRAINERS                             744
 
 // All trainer parties specify the IV, level, and species for each Pokémon in the
 // party. Some trainer parties also specify held items and custom moves for each

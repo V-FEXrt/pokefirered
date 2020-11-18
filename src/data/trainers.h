@@ -8915,4 +8915,16 @@ const struct Trainer gTrainers[] = {
         .partySize = NELEMS(sTrainerMons_CueBallPaxton),
         .party = {.NoItemDefaultMoves = sTrainerMons_CueBallPaxton}
     },
+    [TRAINER_LEADER_BROCK_2] = {
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = CLASS_LEADER_2,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_BROCK,
+        .trainerName = _("BROCK"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = NELEMS(sTrainerMons_LeaderBrock2),
+        .party = {.ItemCustomMoves = sTrainerMons_LeaderBrock2}
+    },
 };

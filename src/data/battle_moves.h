@@ -1274,6 +1274,19 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_SNATCH_AFFECTED,
     },
 
+    [MOVE_AQUA_JET] =
+    {
+        .effect = EFFECT_QUICK_ATTACK,
+        .power = 40,
+        .type = TYPE_WATER,
+        .accuracy = 100,
+        .pp = 30,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 1,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
+    },
+
     [MOVE_QUICK_ATTACK] =
     {
         .effect = EFFECT_QUICK_ATTACK,
